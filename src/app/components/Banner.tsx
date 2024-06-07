@@ -12,7 +12,7 @@ const Banner = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div className='bg-primeColor w-full rounded-b-3xl  relative px-4'>
+    <div className='bg-primeColor w-full rounded-3xl  relative px-4'>
       <Container>
         <div className='text-white grid md:grid-cols-2 gap-20 place-items-center'>
           {/* left */}
